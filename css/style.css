@@ -45,7 +45,11 @@ h2{
     /* background-color: red; */
     margin: 0 auto;
     padding-top: 15px;
+<<<<<<< HEAD
     background-image: url(../img/stars.svg);
+=======
+    background-image: url(img/stars.svg);
+>>>>>>> parent of 393453b (img2)
     background-size: contain;
 }
 
@@ -148,7 +152,11 @@ button{
 } */
 
 /* .debug  */.header-bottom{
+<<<<<<< HEAD
     background-image: url(../img/jumbo.png);
+=======
+    background-image: url(img/jumbo.png);
+>>>>>>> parent of 393453b (img2)
     min-height: 600px;
     background-size: cover;
 }
