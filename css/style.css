@@ -35,6 +35,10 @@ h2{
     margin-bottom: 30px;
 }
 
+.h3-speciale{
+    color: #495D97;
+}
+
 .speciale{
     height: 50px;
     width: 400px;
@@ -47,6 +51,15 @@ h2{
 
 p{
     padding: 5px 0;
+}
+
+.p-size{
+    font-size: 14px;
+    color: white;
+} 
+
+.p-speciale{
+    color: #495D97;
 }
 
 .item1-img{
@@ -92,6 +105,30 @@ button{
 .blue-button{
     color: white;
     background-color: rgb(90, 149, 168);
+}
+
+.italian-flag{
+    width: 30px;
+    height: 20px;
+    background-image: url(img/ita.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+    margin-top: 10px;
+}
+
+.flex-ita{
+    display: flex;
+    align-items: flex-end;
+}
+
+.special-ita{
+    padding: 2px 10px;
+}
+
+.special-entities{
+    padding: 20px 0;
+    color: white;
 }
 
 /* DEBUG */
@@ -147,37 +184,37 @@ button{
     text-align: center;
 }
 
-.debug .footer-top-main-row{
-    background-color: coral;
-    max-width: 1000px;
+/* .debug */ .footer-top-main-row{
+    /* background-color: coral; */
+    max-width: 1400px;
     margin: 0 auto;
 }
 
-.debug .footer-top-main-row > *{
-    border: 1px dashed black;
-    min-height: 400px;
+/* .debug */ .footer-top-main-row > *{
+    /* border: 1px dashed black; */
+    min-height: 300px;
 }
 
-.debug .footer-top-second-row{
+/* .debug .footer-top-second-row{
     background-color: cadetblue;
+} */
+
+/* .debug */ .footer-top-second-row > *{
+    /* border: 1px dashed white; */
+    min-height: 300px;
 }
 
-.debug .footer-top-second-row > *{
-    border: 1px dashed white;
-    min-height: 400px;
-}
-
-.debug .footer-bottom-box{
-    background-color: aquamarine;
+/* .debug */ .footer-bottom-box{
+    /* background-color: aquamarine; */
     padding: 20px;
-    max-width: 1000px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
-.debug .footer-bottom-box > *{
+/* .debug .footer-bottom-box > *{
     background-color: pink;
     border: 1px dashed black;
-}
+} */
 
 
 /* MY-ROW */
@@ -258,9 +295,10 @@ button{
     background-color: white;
 }
 
-/* footer */
+
+/* FOOTER */
 footer{
-    background-color: darkslategray;
+    background-color: #23272A;
 }
 
 .footer-top{
@@ -275,4 +313,5 @@ footer{
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
+    align-items: center;
 }
