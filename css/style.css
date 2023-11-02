@@ -31,8 +31,43 @@ h1{
     font-size: 40px;
 }
 
+h2{
+    margin-bottom: 30px;
+}
+
+.speciale{
+    height: 50px;
+    width: 400px;
+    /* background-color: red; */
+    margin: 0 auto;
+    padding-top: 15px;
+    background-image: url(img/stars.svg);
+    background-size: contain;
+}
+
 p{
     padding: 5px 0;
+}
+
+.item1-img{
+    background-image: url(img/item1.svg);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+}
+
+.item2-img{
+    background-image: url(img/item2.svg);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+}
+
+.item3-img{
+    background-image: url(img/item3.svg);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
 }
 
 /* MIX */
@@ -52,6 +87,11 @@ button{
 .black-button{
     background-color: rgb(31, 29, 29);
     color: white;
+}
+
+.blue-button{
+    color: white;
+    background-color: rgb(90, 149, 168);
 }
 
 /* DEBUG */
@@ -86,24 +126,25 @@ button{
     padding: 50px 0;
 }
 
-.debug main section .my-row .my-col-3-5{
+/* .debug main section .my-row .my-col-3-5{
     background-color: aqua;
     border: 1px dashed black;
     min-height: 400px;
-}
+} */
 
-.debug main section .my-row .my-col-2-5{
+/* .debug main section .my-row .my-col-2-5{
     background-color: pink;
     border: 1px dashed black;
     min-height: 400px;
-}
+} */
 
-.debug main section .big-green{
-    background-color: green;
-    border: 1px dashed black;
+/* .debug */ main section .big-green{
+    /* background-color: green;
+    border: 1px dashed black; */
     min-height: 400px;
     max-width: 1000px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .debug .footer-top-main-row{
@@ -139,7 +180,7 @@ button{
 }
 
 
-/* my-row */
+/* MY-ROW */
 .my-row .main-menu-container > *{
     padding: 10px;
 }
@@ -152,6 +193,7 @@ button{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 .my-row .my-col-1-6{
@@ -179,7 +221,7 @@ button{
 }
 
 
-/* header */
+/* HEADER */
 .header-top .main-menu-container > .main-nav{
     text-align: center;
 }
@@ -193,19 +235,23 @@ button{
 }
 
 .header-bottom{
-    padding: 50px 0;
+    padding: 100px;
 }
 
 
-/* main */
+/* MAIN */
 .main-section-row{
     padding: 40px 0;
     max-width: 1000px;
     margin: 0 auto;
 }
 
+.main-nav{
+    width: 100%;
+}
+
 .lightgrey-background{
-    background-color: lightgray;
+    background-color: rgb(233, 233, 233);
 }
 
 .white-background{
