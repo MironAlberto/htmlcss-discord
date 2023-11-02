@@ -18,35 +18,72 @@ li{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+    vertical-align: auto;
+    padding: 0 20px;
+    font-size: 15px;
+}
 
-/* debug */
-.debug .header-top{
+h1{
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+p{
+    padding: 5px 0;
+}
+
+/* MIX */
+button{
+    width: 70px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50px 50px 50px 50px;
+    margin: 10px 0;
+    border: none;
+}
+
+#button-width{
+    width: 200px;
+}
+
+.black-button{
+    background-color: rgb(31, 29, 29);
+    color: white;
+}
+
+/* DEBUG */
+/* .debug */ .header-top{
     height: 60px;
-    background-color: lightblue;
-    padding: 10px 0;
+    background-color: #265DE8;
 }
 
-.debug .header-top .my-row{
-    background-color: orange;
-    max-width: 1000px;
+/* .debug */ .header-top .my-row{
+    background-color:  #265DE8;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
-.debug .header-top .my-row .main-menu-container .my-col-1-6, .my-col-2-3{
+/* .debug .header-top .my-row .main-menu-container .my-col-1-6, .my-col-2-3{
     border: 1px dashed black;
+} */
+
+/* .debug  */.header-bottom{
+    background-image: url(img/jumbo.png);
+    min-height: 600px;
+    background-size: cover;
 }
 
-.debug .header-bottom{
-    background-color: blue;
-    min-height: 500px;
-}
-
-.debug .header-bottom .box{
-    background-color: fuchsia;
-    border: 1px dashed black;
-    min-height: 400px;
+/* .debug */ .header-bottom .box{
+    text-align: center;
+    /* border: 1px dashed black; */
+    min-height: 300px;
     max-width: 1000px;
     margin: 0 auto;
+    color: white;
+    padding: 50px 0;
 }
 
 .debug main section .my-row .my-col-3-5{
