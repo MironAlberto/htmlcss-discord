@@ -45,7 +45,7 @@ h2{
     /* background-color: red; */
     margin: 0 auto;
     padding-top: 15px;
-    background-image: url(img/stars.svg);
+    background-image: url(/img/stars.svg);
     background-size: contain;
 }
 
@@ -148,7 +148,7 @@ button{
 } */
 
 /* .debug  */.header-bottom{
-    background-image: url(img/jumbo.png);
+    background-image: url(/img/jumbo.png);
     min-height: 600px;
     background-size: cover;
 }
