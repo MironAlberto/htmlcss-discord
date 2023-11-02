@@ -45,7 +45,7 @@ h2{
     /* background-color: red; */
     margin: 0 auto;
     padding-top: 15px;
-    background-image: url(img/stars.svg);
+    background-image: url(../img/stars.svg);
     background-size: contain;
 }
 
@@ -63,21 +63,21 @@ p{
 }
 
 .item1-img{
-    background-image: url(img/item1.svg);
+    background-image: url(../img/item1.svg);
     background-size: cover;
     background-position: center;
     min-height: 400px;
 }
 
 .item2-img{
-    background-image: url(img/item2.svg);
+    background-image: url(../img/item2.svg);
     background-size: cover;
     background-position: center;
     min-height: 400px;
 }
 
 .item3-img{
-    background-image: url(img/item3.svg);
+    background-image: url(../img/item3.svg);
     background-size: cover;
     background-position: center;
     min-height: 400px;
@@ -110,7 +110,7 @@ button{
 .italian-flag{
     width: 30px;
     height: 20px;
-    background-image: url(img/ita.png);
+    background-image: url(../img/ita.png);
     background-size: cover;
     background-position: center;
     border-radius: 10%;
@@ -148,7 +148,7 @@ button{
 } */
 
 /* .debug  */.header-bottom{
-    background-image: url(img/jumbo.png);
+    background-image: url(../img/jumbo.png);
     min-height: 600px;
     background-size: cover;
 }
